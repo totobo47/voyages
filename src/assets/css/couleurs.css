@@ -1,0 +1,74 @@
+:root {
+     --couleur-tache-bleu: #1b48b9;
+     --couleur-tache-verte: #01b9b0;
+     --couleur-fond-bleu-1: #193c88;
+     --couleur-fond-bleu-2: #0d2e75;
+     --couleur-fond-violet-0: #5b2bb4;
+     --couleur-fond-violet-1: #421a8b;
+     --couleur-fond-violet-2: #361474;
+     --couleur-grey: #2c3e50;
+}
+
+.txt-blanc {
+     color: white;
+}
+.txt-tache-bleu {
+     color: var(--couleur-tache-bleu);
+}
+.txt-tache-verte {
+     color: var(--couleur-tache-verte);
+}
+.txt-fond-bleu-1 {
+     color: var(--couleur-fond-bleu-1);
+}
+.txt-fond-bleu-2 {
+     color: var(--couleur-fond-bleu-2);
+}
+.txt-fond-violet-1 {
+     color: var(--couleur-fond-violet-1);
+}
+.txt-fond-violet-2 {
+     color: var(--couleur-fond-violet-2);
+}
+
+
+
+.bg-tache-bleu {
+     background-color: var(--couleur-tache-bleu);
+}
+.bg-tache-verte {
+     background-color: var(--couleur-tache-verte);
+}
+.bg-fond-bleu-1 {
+     background-color: var(--couleur-fond-bleu-1);
+}
+.bg-fond-bleu-2 {
+     background-color: var(--couleur-fond-bleu-2);
+}
+.bg-fond-violet-1 {
+     background-color: var(--couleur-fond-violet-1);
+}
+.bg-fond-violet-2 {
+     background-color: var(--couleur-fond-violet-2);
+}
+
+
+
+.fill-tache-bleu {
+     fill: var(--couleur-tache-bleu);
+}
+.fill-tache-verte {
+     fill: var(--couleur-tache-verte);
+}
+.fill-fond-bleu-1 {
+     fill: var(--couleur-fond-bleu-1);
+}
+.fill-fond-bleu-2 {
+     fill: var(--couleur-fond-bleu-2);
+}
+.fill-fond-violet-1 {
+     fill: var(--couleur-fond-violet-1);
+}
+.fill-fond-violet-2 {
+     fill: var(--couleur-fond-violet-2);
+}
