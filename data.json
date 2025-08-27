@@ -1,0 +1,1372 @@
+[
+  {
+    "id": "Q001",
+    "mdp": "avion",
+    "titre": "Que représente le centre du drapeau mexicain ?",
+    "description": "C'est lié à une ancienne légende aztèque.",
+    "image": "drapeau_mexique.png",
+    "anecdote": "Les Mexicas ont fondé leur capitale après avoir vu un aigle perché sur un cactus dévorant un serpent.",
+    "histoire": "Cette légende est à l’origine de Tenochtitlán, aujourd’hui Mexico.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Un aigle dévorant un serpent, posé sur un cactus" },
+      { "id": 2, "libelle": "Un jaguar doré entouré de fleurs" },
+      { "id": 3, "libelle": "Un soleil avec des rayons de maïs" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q002",
+    "mdp": "avion",
+    "titre": "La péninsule du Yucatán était autrefois sous la mer.",
+    "description": "Vrai ou Faux ?",
+    "image": "cenote.png",
+    "anecdote": "C'est pourquoi on y trouve des milliers de cénotes, formés dans la roche calcaire.",
+    "histoire": "Le sol est principalement composé de calcaire marin, vestige d’un ancien récif.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Vrai" },
+      { "id": 2, "libelle": "Faux" }
+    ],
+    "type":1
+  },
+  {
+    "id": "Q003",
+    "mdp": "avion",
+    "titre": "Quelle boisson chaude et mousseuse buvaient déjà les Mayas ?",
+    "description": "Elle est l'ancêtre du chocolat moderne.",
+    "image": "boisson_cacao.png",
+    "anecdote": "Les Mayas parfumaient le cacao avec du piment ou de la vanille.",
+    "histoire": "Le cacao était si précieux qu’il servait aussi de monnaie.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Le Xocolatl" },
+      { "id": 2, "libelle": "Le Mezcal" },
+      { "id": 3, "libelle": "Le Pulque" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q004",
+    "mdp": "avion",
+    "titre": "Combien de langues sont parlées au Mexique ?",
+    "description": "Indice : bien plus qu'on ne l'imagine.",
+    "image": "langues_mexique.png",
+    "anecdote": "Le Mexique reconnaît officiellement 68 langues indigènes, en plus de l'espagnol.",
+    "histoire": "C’est l’un des pays avec la plus grande diversité linguistique au monde.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "12" },
+      { "id": 2, "libelle": "33" },
+      { "id": 3, "libelle": "69" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q005",
+    "mdp": "avion",
+    "titre": "Les Mariachis viennent du Yucatán.",
+    "description": "Vrai ou Faux ?",
+    "image": "mariachis.png",
+    "anecdote": "Ils viennent de l’État de Jalisco, près de Guadalajara.",
+    "histoire": "La musique mariachi est classée au patrimoine immatériel de l’UNESCO.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Vrai" },
+      { "id": 2, "libelle": "Faux" }
+    ],
+    "type":1
+  },
+
+  {
+    "id": "Q006",
+    "mdp": "cancun",
+    "titre": "Pourquoi Cancún s'appelle ainsi ?",
+    "description": "Le nom vient d'une langue maya.",
+    "image": "cancun.png",
+    "anecdote": "En maya, Cancún signifie 'nid de serpents'.",
+    "histoire": "La zone était marécageuse et remplie de serpents avant son urbanisation dans les années 1970.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Ville du soleil" },
+      { "id": 2, "libelle": "Nid de serpents" },
+      { "id": 3, "libelle": "Terre des coraux" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q007",
+    "mdp": "cancun",
+    "titre": "Quelle attraction sous-marine unique se trouve à Cancún ?",
+    "description": "Indice : c’est lié à l’art et à l’écologie.",
+    "image": "museo_submarino.png",
+    "anecdote": "Il s’agit d’un musée sous-marin composé de plus de 500 statues.",
+    "histoire": "Le MUSA (Museo Subacuático de Arte) a été créé pour protéger les récifs coralliens.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Un musée sous-marin de statues" },
+      { "id": 2, "libelle": "Une pyramide engloutie" },
+      { "id": 3, "libelle": "Un ancien navire pirate" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q008",
+    "mdp": "cancun",
+    "titre": "L'île Isla Mujeres était dédiée à une divinité maya. Laquelle ?",
+    "description": "On y trouvait des sanctuaires remplis d’offrandes.",
+    "image": "isla_mujeres.png",
+    "anecdote": "Les Espagnols y découvrirent de nombreuses statues féminines.",
+    "histoire": "L’île était consacrée à Ixchel, déesse maya de la lune, de la fertilité et de la médecine.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Chac, dieu de la pluie" },
+      { "id": 2, "libelle": "Kukulkán, le serpent à plumes" },
+      { "id": 3, "libelle": "Ixchel, déesse de la lune et de la fertilité" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q009",
+    "mdp": "cancun",
+    "titre": "Quel animal marin peut-on observer au large d’Isla Mujeres en été ?",
+    "description": "C’est le plus gros poisson du monde.",
+    "image": "requin_baleine.png",
+    "anecdote": "Le requin-baleine peut mesurer jusqu’à 12 mètres mais il est totalement inoffensif.",
+    "histoire": "Chaque année, ils migrent vers les eaux riches en plancton du Yucatán.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "La raie manta géante" },
+      { "id": 2, "libelle": "Le requin-baleine" },
+      { "id": 3, "libelle": "Le dauphin tacheté" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q010",
+    "mdp": "cancun",
+    "titre": "Que signifie 'Isla Mujeres' en espagnol ?",
+    "description": "C’est en lien avec les découvertes des conquistadors.",
+    "image": "statues_femmes.png",
+    "anecdote": "Ils trouvèrent des statuettes féminines laissées en offrande à la déesse Ixchel.",
+    "histoire": "C’est ainsi que l’île prit le nom d’'Île des Femmes'.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Île des Femmes" },
+      { "id": 2, "libelle": "Île de la Fertilité" },
+      { "id": 3, "libelle": "Île de la Lune" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q011",
+    "mdp": "cancun",
+    "titre": "Cancún est aujourd’hui une destination touristique internationale. Mais avant 1970, combien d’habitants y vivaient ?",
+    "description": "C’était un petit village isolé.",
+    "image": "cancun_1970.png",
+    "anecdote": "Il n’y avait qu’une poignée de familles de pêcheurs avant le projet touristique du gouvernement.",
+    "histoire": "En moins de 50 ans, Cancún est devenue une ville de plus d’un million d’habitants.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Environ 120" },
+      { "id": 2, "libelle": "Environ 5000" },
+      { "id": 3, "libelle": "Environ 20 000" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q012",
+    "mdp": "playa",
+    "titre": "Pourquoi Playa del Carmen s’appelle-t-elle ainsi ?",
+    "description": "Le nom est lié à la Vierge du Carmen.",
+    "image": "playa_carmen.png",
+    "anecdote": "La fête de la Vierge du Carmen a lieu chaque 16 juillet.",
+    "histoire": "La ville portait autrefois le nom de Xaman-Ha, 'eaux du nord' en maya.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "En l’honneur d’une pirate célèbre" },
+      { "id": 2, "libelle": "En l’honneur de la Vierge du Carmen" },
+      { "id": 3, "libelle": "À cause du bois local appelé 'carmen'" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q013",
+    "mdp": "playa",
+    "titre": "Quelle particularité rend Cozumel célèbre chez les plongeurs ?",
+    "description": "C’est un site naturel unique.",
+    "image": "cozumel_plongee.png",
+    "anecdote": "Jacques Cousteau a contribué à la rendre mondialement connue dans les années 1960.",
+    "histoire": "L’île abrite le deuxième plus grand récif corallien du monde, après la Grande Barrière en Australie.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "La présence de dauphins tachetés rares" },
+      { "id": 2, "libelle": "Des grottes sous-marines uniques" },
+      { "id": 3, "libelle": "Un immense récif corallien" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q014",
+    "mdp": "playa",
+    "titre": "À quelle déesse les Mayas dédièrent l’île de Cozumel ?",
+    "description": "Indice : c’est la même qu’à Isla Mujeres.",
+    "image": "ixchel.png",
+    "anecdote": "Les jeunes Mayas devaient y faire un pèlerinage avant le mariage.",
+    "histoire": "Cozumel était un centre majeur de culte d’Ixchel, déesse de la lune et de la fertilité.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Chaac, dieu de la pluie" },
+      { "id": 2, "libelle": "Ixchel, déesse de la lune" },
+      { "id": 3, "libelle": "Itzamná, dieu créateur" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q015",
+    "mdp": "playa",
+    "titre": "Quel animal marin est emblématique de la côte de Cozumel ?",
+    "description": "On le trouve sur son drapeau municipal.",
+    "image": "tortue_cozumel.png",
+    "anecdote": "Cozumel est un site important de ponte des tortues marines.",
+    "histoire": "Chaque année, les tortues viennent pondre sur les plages protégées de l’île.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "La tortue de mer" },
+      { "id": 2, "libelle": "Le requin-baleine" },
+      { "id": 3, "libelle": "Le lamantin" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q016",
+    "mdp": "playa",
+    "titre": "La 'Quinta Avenida' de Playa del Carmen est connue pour :",
+    "description": "C’est l’avenue principale de la ville.",
+    "image": "quinta_avenida.png",
+    "anecdote": "Elle s’étend sur plusieurs kilomètres en parallèle à la plage.",
+    "histoire": "On y trouve boutiques, restaurants, bars et animations pour touristes et locaux.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Son marché maya traditionnel" },
+      { "id": 2, "libelle": "Ses temples coloniaux" },
+      { "id": 3, "libelle": "Ses commerces, restaurants et vie nocturne" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q017",
+    "mdp": "playa",
+    "titre": "Cozumel est aussi célèbre pour un événement sportif international. Lequel ?",
+    "description": "Indice : c’est une compétition d’endurance.",
+    "image": "ironman_cozumel.png",
+    "anecdote": "L’Ironman de Cozumel attire des athlètes du monde entier.",
+    "histoire": "Le triathlon se déroule chaque année avec natation, vélo et course à pied dans un décor tropical.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Un marathon de sable" },
+      { "id": 2, "libelle": "Un Ironman (triathlon)" },
+      { "id": 3, "libelle": "Une compétition de plongée libre" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q018",
+    "mdp": "playa",
+    "titre": "Quel est l’animal protecteur mythique des Mayas souvent représenté dans la région de Playa del Carmen ?",
+    "description": "On le retrouve dans les légendes et sculptures.",
+    "image": "jaguar.png",
+    "anecdote": "Le jaguar symbolise la force et la nuit chez les Mayas.",
+    "histoire": "Il était lié aux dieux de l’inframonde et considéré comme un guide spirituel.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Le jaguar" },
+      { "id": 2, "libelle": "Le serpent à plumes" },
+      { "id": 3, "libelle": "Le colibri" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q019",
+    "mdp": "akumal",
+    "titre": "Que signifie 'Akumal' en langue maya ?",
+    "description": "C’est lié aux animaux marins qui viennent y pondre.",
+    "image": "akumal.png",
+    "anecdote": "Les tortues viennent chaque année pondre sur ses plages.",
+    "histoire": "En maya, Akumal signifie 'lieu des tortues'.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Lieu des étoiles" },
+      { "id": 2, "libelle": "Lieu des tortues" },
+      { "id": 3, "libelle": "Lieu des pêcheurs" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q020",
+    "mdp": "akumal",
+    "titre": "Tulum est unique parmi les cités mayas car :",
+    "description": "Peu de cités avaient cette caractéristique.",
+    "image": "tulum_ruines.png",
+    "anecdote": "C’est l’un des sites archéologiques les plus photographiés du Mexique.",
+    "histoire": "Tulum est la seule grande cité maya construite au bord de la mer des Caraïbes.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Elle possédait des pyramides rondes" },
+      { "id": 2, "libelle": "Elle était habitée par des jaguars apprivoisés" },
+      { "id": 3, "libelle": "Elle était bâtie au bord de la mer" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q021",
+    "mdp": "akumal",
+    "titre": "Quel est le nom du temple le plus célèbre de Tulum ?",
+    "description": "Il domine la falaise.",
+    "image": "temple_tulum.png",
+    "anecdote": "Ce temple servait de phare pour guider les marchands mayas.",
+    "histoire": "Il s’agit du 'Temple du Dieu Descendant', reconnaissable à sa figure sculptée.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Le Temple du Dieu Descendant" },
+      { "id": 2, "libelle": "Le Temple des Vents" },
+      { "id": 3, "libelle": "Le Temple de la Lune" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q022",
+    "mdp": "akumal",
+    "titre": "À quoi servait principalement Tulum pour les Mayas ?",
+    "description": "C’était un centre important, mais pas une capitale.",
+    "image": "port_tulum.png",
+    "anecdote": "Des marchandises comme le jade, l’obsidienne et le cacao y transitaient.",
+    "histoire": "Tulum était avant tout un port commercial stratégique sur la route maritime maya.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Une cité religieuse uniquement" },
+      { "id": 2, "libelle": "Un port commercial" },
+      { "id": 3, "libelle": "Un site militaire de défense" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q023",
+    "mdp": "akumal",
+    "titre": "Quelle créature est représentée sur de nombreuses fresques de Tulum ?",
+    "description": "Elle symbolise une divinité.",
+    "image": "dieu_descendant.png",
+    "anecdote": "Cette divinité est souvent montrée la tête en bas.",
+    "histoire": "Il s’agit du Dieu Descendant, probablement lié à la fertilité et aux astres.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Un dieu descendant la tête en bas" },
+      { "id": 2, "libelle": "Un jaguar ailé" },
+      { "id": 3, "libelle": "Un serpent bicéphale" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q024",
+    "mdp": "akumal",
+    "titre": "Tulum est entourée de murailles.",
+    "description": "Vrai ou Faux ?",
+    "image": "murailles_tulum.png",
+    "anecdote": "C’est rare pour une cité maya.",
+    "histoire": "Tulum était protégée par une enceinte fortifiée sur trois côtés, le quatrième étant la mer.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Vrai" },
+      { "id": 2, "libelle": "Faux" }
+    ],
+    "type":1
+  },
+  {
+    "id": "Q025",
+    "mdp": "akumal",
+    "titre": "Quelle légende raconte l’arrivée des Espagnols à Tulum ?",
+    "description": "Les habitants auraient vu leurs bateaux au loin.",
+    "image": "espagnols_tulum.png",
+    "anecdote": "Certains pensaient qu’il s’agissait de dieux revenus.",
+    "histoire": "Selon la tradition, les Mayas de Tulum furent parmi les premiers à voir les navires de Cortés.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Ils crurent à des esprits marins" },
+      { "id": 2, "libelle": "Ils les prirent pour des dieux" },
+      { "id": 3, "libelle": "Ils pensèrent à un mauvais présage" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q026",
+    "mdp": "bacalar",
+    "titre": "Pourquoi appelle-t-on Bacalar la 'lagune aux 7 couleurs' ?",
+    "description": "Un phénomène naturel unique.",
+    "image": "lagune_bacalar.png",
+    "anecdote": "Les différentes teintes vont du turquoise au bleu marine.",
+    "histoire": "Les 7 nuances sont dues aux variations de profondeur, aux fonds sableux et à la lumière.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Parce qu’on y trouve 7 espèces de poissons colorés" },
+      { "id": 2, "libelle": "À cause des différentes profondeurs et reflets" },
+      { "id": 3, "libelle": "C’est une légende maya, non scientifique" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q027",
+    "mdp": "bacalar",
+    "titre": "Quel peuple attaqua souvent Bacalar pendant l’époque coloniale ?",
+    "description": "Un grand classique des Caraïbes.",
+    "image": "pirates_bacalar.png",
+    "anecdote": "En 1642, la ville fut totalement détruite par une attaque pirate.",
+    "histoire": "Les pirates anglais et hollandais cherchaient notamment le bois de campêche, très précieux pour les teintures.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Les pirates" },
+      { "id": 2, "libelle": "Les Mayas rebelles" },
+      { "id": 3, "libelle": "Les Aztèques" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q028",
+    "mdp": "bacalar",
+    "titre": "Quel fort fut construit pour protéger Bacalar ?",
+    "description": "Il est encore visible aujourd’hui.",
+    "image": "fort_san_felipe.png",
+    "anecdote": "Le fort possède un musée sur les attaques de pirates.",
+    "histoire": "Le Fort de San Felipe fut bâti en 1729 pour défendre Bacalar contre les envahisseurs.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Fort Santa Maria" },
+      { "id": 2, "libelle": "Fort del Carmen" },
+      { "id": 3, "libelle": "Fort San Felipe" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q029",
+    "mdp": "bacalar",
+    "titre": "Quel organisme très ancien vit encore dans la lagune de Bacalar ?",
+    "description": "Un vestige de l’époque préhistorique.",
+    "image": "stromatolites.png",
+    "anecdote": "Ces formations sont rares dans le monde.",
+    "histoire": "Les stromatolithes de Bacalar produisent de l’oxygène et sont parmi les plus vieux organismes vivants de la Terre.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Les stromatolithes" },
+      { "id": 2, "libelle": "Les trilobites" },
+      { "id": 3, "libelle": "Les coraux noirs" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q030",
+    "mdp": "bacalar",
+    "titre": "Que signifie 'Bacalar' en maya ?",
+    "description": "Indice : c’est lié à l’eau.",
+    "image": "etymologie_bacalar.png",
+    "anecdote": "Le nom maya complet était 'Bakhalal'.",
+    "histoire": "Bacalar signifie 'entouré de roseaux' en langue maya.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Rivière sacrée" },
+      { "id": 2, "libelle": "Eau turquoise" },
+      { "id": 3, "libelle": "Entouré de roseaux" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q031",
+    "mdp": "bacalar",
+    "titre": "Les rapides de Bacalar relient :",
+    "description": "C’est un lieu naturel magique.",
+    "image": "rapides_bacalar.png",
+    "anecdote": "On peut y flotter doucement au fil du courant.",
+    "histoire": "Les rapides relient la lagune de Bacalar à la lagune voisine de Xul-Ha.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "La mer des Caraïbes à Bacalar" },
+      { "id": 2, "libelle": "La lagune Bacalar à la lagune Xul-Ha" },
+      { "id": 3, "libelle": "Un cénote souterrain à Bacalar" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q032",
+    "mdp": "bacalar",
+    "titre": "Quelle légende locale raconte l’origine des couleurs de Bacalar ?",
+    "description": "Les Mayas aimaient donner une explication divine.",
+    "image": "legende_bacalar.png",
+    "anecdote": "Une histoire transmise oralement par les anciens.",
+    "histoire": "Selon une légende, le dieu Chaac aurait renversé sa jarre sacrée, déversant différentes teintes d’eau dans la lagune.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Le dieu Chaac aurait versé ses eaux colorées" },
+      { "id": 2, "libelle": "Un jaguar cosmique aurait griffé la terre" },
+      { "id": 3, "libelle": "Un arc-en-ciel serait tombé dans l’eau" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q033",
+    "mdp": "chichen",
+    "titre": "Que signifie 'Chichén Itzá' en langue maya ?",
+    "description": "Indice : cela fait référence à un point d’eau.",
+    "image": "chichen_nom.png",
+    "anecdote": "Les Mayas dépendaient des cénotes pour leur survie.",
+    "histoire": "Le nom signifie 'À la bouche du puits des Itzá'.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "La cité du soleil couchant" },
+      { "id": 2, "libelle": "Le temple des dieux jumeaux" },
+      { "id": 3, "libelle": "À la bouche du puits des Itzá" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q034",
+    "mdp": "chichen",
+    "titre": "Quelle est la pyramide principale de Chichén Itzá ?",
+    "description": "C’est le monument le plus célèbre du site.",
+    "image": "el_castillo.png",
+    "anecdote": "Chaque année, l’équinoxe attire des milliers de visiteurs.",
+    "histoire": "Il s’agit de la pyramide de Kukulkán, aussi appelée El Castillo.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "La pyramide de Kukulkán" },
+      { "id": 2, "libelle": "Le Temple des Guerriers" },
+      { "id": 3, "libelle": "La pyramide du Jaguar" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q035",
+    "mdp": "chichen",
+    "titre": "Quel phénomène se produit lors des équinoxes sur la pyramide de Kukulkán ?",
+    "description": "Un spectacle lié au soleil.",
+    "image": "equnoxe_kukulkan.png",
+    "anecdote": "Les Mayas avaient des connaissances astronomiques impressionnantes.",
+    "histoire": "On voit apparaître une ombre en forme de serpent qui descend l’escalier de la pyramide.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Un rayon traverse le temple du sommet" },
+      { "id": 2, "libelle": "Une ombre de serpent descend les marches" },
+      { "id": 3, "libelle": "Le temple devient entièrement doré" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q036",
+    "mdp": "chichen",
+    "titre": "Combien de marches possède la pyramide de Kukulkán ?",
+    "description": "Un nombre très symbolique.",
+    "image": "escaliers_castillo.png",
+    "anecdote": "Les Mayas voulaient représenter leur calendrier.",
+    "histoire": "Il y a 365 marches, soit une par jour de l’année solaire.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "365" },
+      { "id": 2, "libelle": "260" },
+      { "id": 3, "libelle": "52" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q037",
+    "mdp": "chichen",
+    "titre": "À quoi servait le 'Cenote sacré' de Chichén Itzá ?",
+    "description": "Ce n’était pas une simple source d’eau.",
+    "image": "cenote_sacre.png",
+    "anecdote": "On y a retrouvé des offrandes en or et même des restes humains.",
+    "histoire": "Le cenote sacré était utilisé pour des sacrifices et des rituels dédiés aux dieux.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Un lieu de baignade réservé aux nobles" },
+      { "id": 2, "libelle": "Un observatoire astronomique" },
+      { "id": 3, "libelle": "Un lieu de sacrifices et offrandes" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q038",
+    "mdp": "chichen",
+    "titre": "Quel jeu rituel se pratiquait à Chichén Itzá ?",
+    "description": "Un sport sacré.",
+    "image": "terrain_jeu_balle.png",
+    "anecdote": "Le terrain de jeu de balle de Chichén Itzá est le plus grand du Mexique.",
+    "histoire": "Il s’agit du jeu de balle maya, lié à la mythologie et parfois accompagné de sacrifices.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "La lucha libre" },
+      { "id": 2, "libelle": "Le jeu de balle maya" },
+      { "id": 3, "libelle": "La pelote sacrée" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q039",
+    "mdp": "chichen",
+    "titre": "Quel peuple, en plus des Mayas, influença Chichén Itzá ?",
+    "description": "On le voit dans l’architecture.",
+    "image": "influence_tolteque.png",
+    "anecdote": "C’est visible au Temple des Guerriers et aux statues de Chac Mool.",
+    "histoire": "Les Toltèques influencèrent fortement Chichén Itzá, notamment via le culte de Quetzalcóatl/Kukulkán.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Les Toltèques" },
+      { "id": 2, "libelle": "Les Aztèques" },
+      { "id": 3, "libelle": "Les Olmèques" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q040",
+    "mdp": "chichen",
+    "titre": "Pourquoi Chichén Itzá est-elle aujourd’hui mondialement connue ?",
+    "description": "Un titre prestigieux.",
+    "image": "7_merveilles.png",
+    "anecdote": "Des millions de visiteurs s’y rendent chaque année.",
+    "histoire": "Chichén Itzá a été élue en 2007 comme l’une des 7 nouvelles merveilles du monde moderne.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "C’est le plus vieux site maya" },
+      { "id": 2, "libelle": "Elle fait partie des 7 merveilles du monde moderne" },
+      { "id": 3, "libelle": "C’est la plus grande pyramide du Mexique" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q041",
+    "mdp": "coba",
+    "titre": "Quelle est la particularité de la pyramide principale de Cobá, la Nohoch Mul ?",
+    "description": "Elle est impressionnante même comparée à Chichén Itzá.",
+    "image": "nohoch_mul.png",
+    "anecdote": "Elle mesure environ 42 mètres de haut.",
+    "histoire": "C’est l’une des plus hautes pyramides mayas de la péninsule du Yucatán.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "C’est l’une des plus hautes pyramides du Yucatán" },
+      { "id": 2, "libelle": "Elle est circulaire" },
+      { "id": 3, "libelle": "Elle possède un observatoire au sommet" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q042",
+    "mdp": "coba",
+    "titre": "Comment les Mayas reliaient-ils Cobá à d’autres cités ?",
+    "description": "Un réseau surprenant dans la jungle.",
+    "image": "sacbe_coba.png",
+    "anecdote": "On a retrouvé des routes allant jusqu’à 100 km de long.",
+    "histoire": "Les 'sacbeob' (routes blanches) permettaient de relier Cobá à d’autres centres mayas.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Des canaux navigables" },
+      { "id": 2, "libelle": "Des routes pavées appelées sacbeob" },
+      { "id": 3, "libelle": "Des escaliers de pierre suspendus" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q043",
+    "mdp": "coba",
+    "titre": "À son apogée, Cobá comptait environ :",
+    "description": "Une estimation impressionnante.",
+    "image": "coba_population.png",
+    "anecdote": "C’était l’une des plus grandes cités mayas du Yucatán.",
+    "histoire": "On estime que Cobá pouvait abriter jusqu’à 50 000 habitants.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "5 000 habitants" },
+      { "id": 2, "libelle": "20 000 habitants" },
+      { "id": 3, "libelle": "50 000 habitants" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q044",
+    "mdp": "ekbalam",
+    "titre": "Que signifie 'Ek’ Balam' en maya ?",
+    "description": "Le nom évoque un animal sacré.",
+    "image": "nom_ekbalam.png",
+    "anecdote": "Les jaguars étaient très présents dans l’imaginaire maya.",
+    "histoire": "Ek’ Balam signifie 'Jaguar noir'.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Jaguar noir" },
+      { "id": 2, "libelle": "Aigle sacré" },
+      { "id": 3, "libelle": "Serpent céleste" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q045",
+    "mdp": "ekbalam",
+    "titre": "Quelle est la particularité de l’Acropole d’Ek’ Balam ?",
+    "description": "Un détail impressionnant pour un site aussi méconnu.",
+    "image": "acropole_ekbalam.png",
+    "anecdote": "Elle est encore peu fréquentée comparée à d’autres sites.",
+    "histoire": "L’Acropole d’Ek’ Balam est gigantesque et contient la tombe d’un roi nommé Ukit Kan Le’k Tok’.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Elle est décorée de fresques grecques" },
+      { "id": 2, "libelle": "Elle contient la tombe d’un roi" },
+      { "id": 3, "libelle": "Elle est construite entièrement en obsidienne" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q046",
+    "mdp": "ekbalam",
+    "titre": "Quelle sculpture impressionnante peut-on voir à Ek’ Balam ?",
+    "description": "Indice : une immense gueule.",
+    "image": "sculpture_jaguar.png",
+    "anecdote": "Elle symbolise l’entrée du monde souterrain.",
+    "histoire": "Une énorme gueule de jaguar sculptée sert d’entrée à une tombe royale.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Un serpent géant de pierre" },
+      { "id": 2, "libelle": "Un masque solaire" },
+      { "id": 3, "libelle": "Une gueule de jaguar" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q047",
+    "mdp": "valladolid",
+    "titre": "Pourquoi Valladolid est-elle surnommée la 'perle de l’Orient' du Yucatán ?",
+    "description": "Un titre flatteur pour une petite ville.",
+    "image": "valladolid_centre.png",
+    "anecdote": "La ville est réputée pour ses maisons colorées et son atmosphère paisible.",
+    "histoire": "Valladolid doit ce surnom à sa beauté coloniale et à son rôle stratégique au centre du Yucatán.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Car elle est bâtie entièrement en marbre blanc" },
+      { "id": 2, "libelle": "Car c’est une ville coloniale charmante et centrale" },
+      { "id": 3, "libelle": "Car elle fut la première capitale du Yucatán" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q048",
+    "mdp": "valladolid",
+    "titre": "Quel cénoté célèbre se trouve en plein centre de Valladolid ?",
+    "description": "Il est accessible à pied depuis la place centrale.",
+    "image": "cenote_zaci.png",
+    "anecdote": "Les habitants venaient y puiser de l’eau jusqu’au XXe siècle.",
+    "histoire": "Il s’agit du cénote Zací, un immense gouffre naturel impressionnant.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Cénote Zací" },
+      { "id": 2, "libelle": "Cénote Ik Kil" },
+      { "id": 3, "libelle": "Cénote Azul" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q049",
+    "mdp": "valladolid",
+    "titre": "Quel rôle Valladolid a-t-elle joué dans l’histoire du Mexique ?",
+    "description": "Un épisode souvent oublié.",
+    "image": "valladolid_guerre.png",
+    "anecdote": "C’est ici qu’éclata une des premières révoltes indigènes.",
+    "histoire": "Valladolid fut un foyer de la guerre des Castes au XIXe siècle.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Elle fut la capitale de l’Empire aztèque" },
+      { "id": 2, "libelle": "Elle servit de base militaire aux conquistadors" },
+      { "id": 3, "libelle": "Elle fut un centre de la guerre des Castes" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q050",
+    "mdp": "izamal",
+    "titre": "Pourquoi Izamal est-elle surnommée 'la ville jaune' ?",
+    "description": "Un choix de couleur très particulier.",
+    "image": "izamal_jaune.png",
+    "anecdote": "Même les lampadaires et bancs sont jaunes.",
+    "histoire": "Izamal est peinte en jaune depuis la visite du pape Jean-Paul II en 1993.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "À cause du sol riche en soufre" },
+      { "id": 2, "libelle": "Parce que toute la ville a été repeinte en jaune pour le pape" },
+      { "id": 3, "libelle": "Car c’était la couleur préférée des Mayas" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q051",
+    "mdp": "izamal",
+    "titre": "Quel monastère impressionnant domine Izamal ?",
+    "description": "Un vestige de la colonisation espagnole.",
+    "image": "couvent_izamal.png",
+    "anecdote": "Il a été bâti sur une pyramide maya détruite.",
+    "histoire": "Le couvent franciscain de San Antonio de Padua, construit au XVIe siècle, est l’un des plus grands ensembles religieux du Mexique.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Le couvent de San Antonio de Padua" },
+      { "id": 2, "libelle": "Le couvent de San Cristóbal" },
+      { "id": 3, "libelle": "Le couvent de Santa María" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q052",
+    "mdp": "izamal",
+    "titre": "Que peut-on encore voir à Izamal qui rappelle son passé maya ?",
+    "description": "Un mélange entre deux cultures.",
+    "image": "pyramides_izamal.png",
+    "anecdote": "On peut encore grimper sur certaines pyramides.",
+    "histoire": "Izamal conserve plusieurs pyramides mayas, dont la Kinich Kakmó, dédiée au dieu du soleil.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Des fresques dans le couvent" },
+      { "id": 2, "libelle": "Un terrain de jeu de balle" },
+      { "id": 3, "libelle": "Des pyramides mayas comme Kinich Kakmó" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q053",
+    "mdp": "merida",
+    "titre": "Pourquoi Mérida est-elle surnommée la 'ville blanche' ?",
+    "description": "Un surnom lié à la pierre et à la couleur.",
+    "image": "merida_blanc.png",
+    "anecdote": "De nombreux bâtiments coloniaux ont été construits avec du calcaire local blanc.",
+    "histoire": "Le surnom vient des murs blancs et de la luminosité qui caractérisent le centre historique.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "À cause des façades blanches en calcaire" },
+      { "id": 2, "libelle": "À cause des plages de sable blanc autour de la ville" },
+      { "id": 3, "libelle": "À cause des habits traditionnels blancs des habitants" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q054",
+    "mdp": "merida",
+    "titre": "Quel style architectural domine le centre de Mérida ?",
+    "description": "Un mélange de deux influences principales.",
+    "image": "merida_archi.png",
+    "anecdote": "On y voit des balcons en fer forgé et des patios intérieurs.",
+    "histoire": "L’architecture coloniale espagnole domine, avec des influences mayas locales dans certains détails.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Art déco" },
+      { "id": 2, "libelle": "Colonial espagnol" },
+      { "id": 3, "libelle": "Moderne" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q055",
+    "mdp": "merida",
+    "titre": "Quel marché célèbre peut-on visiter à Mérida ?",
+    "description": "Un lieu incontournable pour découvrir la gastronomie locale.",
+    "image": "mercado_merida.png",
+    "anecdote": "On y trouve des spécialités comme les salbutes, panuchos et cochinita pibil.",
+    "histoire": "Le Mercado Lucas de Gálvez est le plus grand marché de la ville et un centre de vie quotidienne.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Mercado Lucas de Gálvez" },
+      { "id": 2, "libelle": "Mercado de San Juan" },
+      { "id": 3, "libelle": "Mercado Central de Mérida" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q056",
+    "mdp": "merida",
+    "titre": "Quelle tradition culturelle est très vivante à Mérida ?",
+    "description": "Elle attire de nombreux visiteurs le soir.",
+    "image": "merida_musique.png",
+    "anecdote": "Chaque dimanche soir, la place principale accueille des spectacles de danse et musique.",
+    "histoire": "Les 'jaranes' et la musique traditionnelle y sont célébrés régulièrement, témoignant du patrimoine vivant de la ville.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Les corridas de taureaux" },
+      { "id": 2, "libelle": "Les spectacles de musique et danse sur la place principale" },
+      { "id": 3, "libelle": "Le carnaval aquatique" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q057",
+    "mdp": "merida",
+    "titre": "Quel musée de Mérida raconte l’histoire du Yucatán ?",
+    "description": "Un passage obligé pour comprendre la région.",
+    "image": "museo_merida.png",
+    "anecdote": "Il présente aussi des expositions sur l’époque préhispanique et coloniale.",
+    "histoire": "Le Museo Casa de Montejo est un palais colonial qui retrace l’histoire de la famille Montejo et de la ville.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Museo Casa de Montejo" },
+      { "id": 2, "libelle": "Museo Nacional de Antropología" },
+      { "id": 3, "libelle": "Museo del Carmen" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q058",
+    "mdp": "merida",
+    "titre": "Mérida est proche de plusieurs sites mayas. Lequel est à environ 1h30 de route ?",
+    "description": "Un site majeur et très visité.",
+    "image": "uxmal.png",
+    "anecdote": "Uxmal est célèbre pour sa pyramide du Devin et ses sculptures géométriques.",
+    "histoire": "Uxmal est l’un des sites majeurs du Puuc, à proximité immédiate de Mérida, et témoigne de la grandeur de l’architecture maya.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Chichén Itzá" },
+      { "id": 2, "libelle": "Uxmal" },
+      { "id": 3, "libelle": "Tulum" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q059",
+    "mdp": "mayapan",
+    "titre": "Quel rôle jouait Mayapán dans l’histoire maya ?",
+    "description": "Un centre politique important.",
+    "image": "mayapan_vue.png",
+    "anecdote": "Mayapán a été fondée vers 1220 et a dominé la région pendant deux siècles.",
+    "histoire": "C’était le dernier grand centre politique maya avant la conquête espagnole.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Un centre religieux uniquement" },
+      { "id": 2, "libelle": "Une ville portuaire stratégique" },
+      { "id": 3, "libelle": "Un centre politique et militaire" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q060",
+    "mdp": "mayapan",
+    "titre": "Quel type de fortification caractérise Mayapán ?",
+    "description": "Indice : c’est atypique pour les Mayas.",
+    "image": "mur_mayapan.png",
+    "anecdote": "Des murailles protègent le site, surprenant pour une ville maya.",
+    "histoire": "Mayapán est entourée d’un mur défensif circulaire de 9 km, unique dans l’architecture maya.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Un mur défensif de 9 km" },
+      { "id": 2, "libelle": "Une palissade en bois" },
+      { "id": 3, "libelle": "Une enceinte en pierres sculptées" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q061",
+    "mdp": "mayapan",
+    "titre": "Que trouve-t-on au centre de Mayapán ?",
+    "description": "Le cœur cérémoniel du site.",
+    "image": "mayapan_temple.png",
+    "anecdote": "Le Temple des Masques était décoré de centaines de masques de Chaac.",
+    "histoire": "Le centre cérémoniel comprend de nombreux temples dédiés aux divinités, en particulier le dieu de la pluie Chaac.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Un marché central" },
+      { "id": 2, "libelle": "Le centre cérémoniel avec temples et pyramides" },
+      { "id": 3, "libelle": "Une résidence royale uniquement" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q062",
+    "mdp": "uxmal",
+    "titre": "Quel est le monument le plus célèbre d’Uxmal ?",
+    "description": "Une pyramide impressionnante par sa taille et sa décoration.",
+    "image": "pyramide_uxmal.png",
+    "anecdote": "Elle est appelée 'Pyramide du Devin' et mesure environ 35 mètres de haut.",
+    "histoire": "La Pyramide du Devin est construite selon la légende avec un seul architecte qui l’aurait érigée en une seule nuit.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "La Pyramide du Devin" },
+      { "id": 2, "libelle": "Le Temple des Guerriers" },
+      { "id": 3, "libelle": "Le Palais du Gouverneur" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q063",
+    "mdp": "uxmal",
+    "titre": "Quel style décoratif est caractéristique d’Uxmal ?",
+    "description": "Il est très reconnaissable dans l’architecture Puuc.",
+    "image": "puuc_style.png",
+    "anecdote": "On y retrouve des motifs géométriques et des masques de Chaac partout.",
+    "histoire": "Le style Puuc se caractérise par des murs lisses au bas et des sculptures détaillées en haut.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Baroque" },
+      { "id": 2, "libelle": "Puuc, avec motifs géométriques et masques de Chaac" },
+      { "id": 3, "libelle": "Gothique" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q064",
+    "mdp": "uxmal",
+    "titre": "Quel autre monument célèbre se trouve à Uxmal, outre la Pyramide du Devin ?",
+    "description": "Un bâtiment long et impressionnant.",
+    "image": "palais_gouverneur.png",
+    "anecdote": "Il est richement décoré de motifs géométriques et d’animaux sculptés.",
+    "histoire": "Le Palais du Gouverneur, construit sur une plateforme, est un exemple parfait de l’architecture Puuc.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Le Palais du Gouverneur" },
+      { "id": 2, "libelle": "Le Temple du Soleil" },
+      { "id": 3, "libelle": "Le Temple du Jaguar" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q065",
+    "mdp": "uxmal",
+    "titre": "Uxmal était un centre dédié à quel dieu principalement ?",
+    "description": "Indice : il contrôle l’eau et la pluie.",
+    "image": "chaac.png",
+    "anecdote": "Les masques de Chaac ornent de nombreux bâtiments.",
+    "histoire": "Chaac, le dieu de la pluie, était particulièrement vénéré dans le Puuc, région sèche du Yucatán.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Kukulkán" },
+      { "id": 2, "libelle": "Chaac" },
+      { "id": 3, "libelle": "Ixchel" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q066",
+    "mdp": "kabah",
+    "titre": "Quelle est la particularité du site de Kabah ?",
+    "description": "On y retrouve un temple très décoré.",
+    "image": "temple_kabah.png",
+    "anecdote": "Le Temple des Masques de Chaac est couvert de centaines de masques sculptés.",
+    "histoire": "Kabah est célèbre pour ses masques de Chaac, le dieu de la pluie, sculptés sur toute la façade.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Temple des Masques de Chaac" },
+      { "id": 2, "libelle": "Pyramide du Devin" },
+      { "id": 3, "libelle": "Temple du Soleil" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q067",
+    "mdp": "sayil",
+    "titre": "Quelle est la structure principale de Sayil ?",
+    "description": "Une grande plateforme décorée et imposante.",
+    "image": "palais_sayil.png",
+    "anecdote": "Le Palais de Sayil mesure environ 120 mètres de long.",
+    "histoire": "C’est un palais à plusieurs étages et galeries, typique du style Puuc.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Le Palais de Sayil" },
+      { "id": 2, "libelle": "La Pyramide du Devin" },
+      { "id": 3, "libelle": "Temple des Guerriers" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q068",
+    "mdp": "labna",
+    "titre": "Quelle caractéristique architecturale rend Labná célèbre ?",
+    "description": "Une construction typique du Puuc reliant deux bâtiments.",
+    "image": "arche_labna.png",
+    "anecdote": "Le célèbre arc de Labná est l’un des exemples les plus connus de l’architecture Puuc.",
+    "histoire": "Le passage voûté relie deux structures et est richement décoré de motifs géométriques.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Une pyramide circulaire" },
+      { "id": 2, "libelle": "L’arche voûtée décorée de motifs Puuc" },
+      { "id": 3, "libelle": "Une grande statue de Jaguar" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q069",
+    "mdp": "puuc",
+    "titre": "Quelle divinité est omniprésente dans Kabah, Sayil et Labná ?",
+    "description": "Elle est représentée par des centaines de masques.",
+    "image": "chaac_masque.png",
+    "anecdote": "Chaac, dieu de la pluie, était essentiel pour ces villes car la région est sèche.",
+    "histoire": "Les façades des bâtiments sont couvertes de masques de Chaac sculptés en pierre.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Kukulkán" },
+      { "id": 2, "libelle": "Ixchel" },
+      { "id": 3, "libelle": "Chaac" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q070",
+    "mdp": "edzna",
+    "titre": "Quel est le monument central d’Edzná ?",
+    "description": "Une structure imposante visible de loin.",
+    "image": "pyramide_edzna.png",
+    "anecdote": "La pyramide est entourée de plusieurs plateformes et temples plus petits.",
+    "histoire": "La pyramide centrale, appelée 'Temple des Masques', domine le site et servait à des rituels et cérémonies.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Le Palais du Gouverneur" },
+      { "id": 2, "libelle": "La pyramide centrale" },
+      { "id": 3, "libelle": "Le Temple des Guerriers" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q071",
+    "mdp": "edzna",
+    "titre": "Quelle caractéristique unique possède Edzná par rapport à d’autres cités mayas ?",
+    "description": "Elle est liée à l’eau.",
+    "image": "canais_edzna.png",
+    "anecdote": "Edzná est parfois appelée 'la cité des eaux' à cause de ses canaux et réservoirs.",
+    "histoire": "Le site possède un système complexe de canaux et réservoirs pour gérer l’eau de pluie.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Des pyramides circulaires uniques" },
+      { "id": 2, "libelle": "Des routes sacrées longues de 50 km" },
+      { "id": 3, "libelle": "Un système hydraulique sophistiqué" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q072",
+    "mdp": "edzna",
+    "titre": "Quel style architectural domine Edzná ?",
+    "description": "Typique du classique maya.",
+    "image": "edzna_style.png",
+    "anecdote": "On observe des décorations fines sur les frises et les corniches.",
+    "histoire": "Le style classique maya avec plateformes, temples et pyramides est prédominant.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Classique maya" },
+      { "id": 2, "libelle": "Puuc" },
+      { "id": 3, "libelle": "Post-classique maya" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q073",
+    "mdp": "edzna",
+    "titre": "Edzná signifie-t-elle quelque chose en maya ?",
+    "description": "Un nom lié à la géographie locale.",
+    "image": "etymologie_edzna.png",
+    "anecdote": "Certains interprètent le nom comme lié à l’eau ou aux marécages.",
+    "histoire": "Edzná signifie probablement 'maison des trois coeurs d’eau' en langue maya.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Maison du soleil" },
+      { "id": 2, "libelle": "Maison des trois coeurs d’eau" },
+      { "id": 3, "libelle": "La cité sacrée" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q074",
+    "mdp": "campeche",
+    "titre": "Pourquoi Campeche est-elle surnommée la 'ville fortifiée' ?",
+    "description": "Un vestige de l’époque coloniale.",
+    "image": "campeche_murailles.png",
+    "anecdote": "Les remparts protégeaient la ville des attaques de pirates et corsaires.",
+    "histoire": "Campeche possède encore ses remparts et bastions, construits au XVIIe siècle pour défendre la ville.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "À cause de ses murs et bastions coloniaux" },
+      { "id": 2, "libelle": "Parce que la ville est entourée de falaises" },
+      { "id": 3, "libelle": "À cause d’une forteresse maya au centre" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q075",
+    "mdp": "campeche",
+    "titre": "Quel style architectural domine le centre de Campeche ?",
+    "description": "Un style coloré et colonial.",
+    "image": "campeche_archi.png",
+    "anecdote": "Les façades colorées et balcons en fer forgé sont typiques.",
+    "histoire": "Le centre historique de Campeche est classé au patrimoine mondial de l’UNESCO pour son architecture coloniale espagnole.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Moderne" },
+      { "id": 2, "libelle": "Colonial espagnol" },
+      { "id": 3, "libelle": "Art déco" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q076",
+    "mdp": "calakmul",
+    "titre": "Quelle est la particularité de Calakmul parmi les sites mayas ?",
+    "description": "Indice : sa taille et son isolement.",
+    "image": "calakmul_vue.png",
+    "anecdote": "Calakmul est entourée d’une réserve naturelle immense.",
+    "histoire": "Calakmul est l’un des plus grands centres mayas, perdu au cœur de la jungle du Campeche, et l’un des plus étendus du Mexique.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Elle est entièrement restaurée" },
+      { "id": 2, "libelle": "Elle est sur la côte" },
+      { "id": 3, "libelle": "C’est une des plus grandes et isolées cités mayas" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q077",
+    "mdp": "calakmul",
+    "titre": "Quel type de pyramides trouve-t-on à Calakmul ?",
+    "description": "Certaines sont gigantesques.",
+    "image": "calakmul_pyramide.png",
+    "anecdote": "Certaines pyramides dépassent les 50 mètres de hauteur.",
+    "histoire": "Calakmul possède de grandes pyramides à degrés, typiques du style classique maya.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Circulaires" },
+      { "id": 2, "libelle": "À degrés" },
+      { "id": 3, "libelle": "Pyramidales tronquées modernes" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q078",
+    "mdp": "calakmul",
+    "titre": "Calakmul faisait partie de quel réseau politique maya ?",
+    "description": "Un réseau rival de Tikal.",
+    "image": "calakmul_tikal.png",
+    "anecdote": "La cité était l’un des principaux centres d’une puissante confédération maya.",
+    "histoire": "Calakmul était le centre de la 'Superpuissance de la Jungle', rivale de Tikal pendant le Classique maya.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "La Ligue de la Jungle (rival de Tikal)" },
+      { "id": 2, "libelle": "Le royaume de Yaxchilán" },
+      { "id": 3, "libelle": "L’Empire Aztèque" }
+    ],
+    "type":2
+  },
+
+  {
+    "id": "Q079",
+    "mdp": "bonus",
+    "titre": "Quelle est la particularité de Palenque dans l’histoire maya ?",
+    "description": "Un site célèbre pour ses inscriptions et architecture.",
+    "image": "palenque.png",
+    "anecdote": "Le Temple des Inscriptions abrite la tombe de Pakal le Grand.",
+    "histoire": "Palenque est célèbre pour ses textes hiéroglyphiques et son style architectural raffiné.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Abritait la tombe de Pakal le Grand" },
+      { "id": 2, "libelle": "C’était un centre commercial maya" },
+      { "id": 3, "libelle": "Elle est la plus haute pyramide du Yucatán" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q080",
+    "mdp": "bonus",
+    "titre": "Yaxchilán est célèbre pour :",
+    "description": "Un site en pleine jungle et sur un fleuve.",
+    "image": "yaxchilan.png",
+    "anecdote": "Il n’est accessible qu’en bateau depuis le fleuve Usumacinta.",
+    "histoire": "Yaxchilán est connu pour ses stèles sculptées et sa position stratégique sur le fleuve.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Ses pyramides géantes de style Puuc" },
+      { "id": 2, "libelle": "Ses ruines coloniales espagnoles" },
+      { "id": 3, "libelle": "Ses stèles sculptées et sa localisation fluviale" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q081",
+    "mdp": "bonus",
+    "titre": "Pourquoi Las Coloradas est célèbre ?",
+    "description": "Un lieu photogénique de la côte mexicaine.",
+    "image": "las_coloradas.png",
+    "anecdote": "Les eaux roses sont dues aux micro-organismes et algues dans les salines.",
+    "histoire": "Las Coloradas est célèbre pour ses lacs salés aux eaux roses, un phénomène naturel unique.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Pour ses pyramides mayas immergées" },
+      { "id": 2, "libelle": "Pour ses eaux roses" },
+      { "id": 3, "libelle": "Pour ses falaises blanches" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q082",
+    "mdp": "bonus",
+    "titre": "Quelle est l’importance de la réserve de Sian Ka’an ?",
+    "description": "Une zone protégée exceptionnelle.",
+    "image": "sian_kaan.png",
+    "anecdote": "Elle abrite des jaguars, dauphins et une biodiversité incroyable.",
+    "histoire": "Sian Ka’an est une réserve de biosphère classée à l’UNESCO, protégée pour sa faune et sa flore.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "C’est un site maya englouti" },
+      { "id": 2, "libelle": "C’est un parc d’attractions" },
+      { "id": 3, "libelle": "C’est une réserve naturelle classée UNESCO" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q083",
+    "mdp": "bonus",
+    "titre": "Quel aliment est typique du Yucatán et qu’on retrouve souvent dans les marchés et restaurants ?",
+    "description": "Une spécialité culinaire locale.",
+    "image": "cochinita_pibil.png",
+    "anecdote": "Cuit lentement dans des feuilles de bananier, c’est un plat emblématique.",
+    "histoire": "La cochinita pibil est un plat traditionnel du Yucatán à base de porc mariné à l’achiote.",
+    "reponse": 1,
+    "reponses": [
+      { "id": 1, "libelle": "Cochinita pibil" },
+      { "id": 2, "libelle": "Tacos al pastor" },
+      { "id": 3, "libelle": "Enchiladas suizas" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q084",
+    "mdp": "bonus",
+    "titre": "Quelle civilisation précolombienne est connue pour les têtes colossales sculptées dans la pierre ?",
+    "description": "Un peuple différent des Mayas.",
+    "image": "olmec.png",
+    "anecdote": "Les Olmèques ont précédé les Mayas et influencé leur culture.",
+    "histoire": "Les Olmèques, civilisation du golfe du Mexique, sont célèbres pour leurs têtes colossales et leur art monumental.",
+    "reponse": 2,
+    "reponses": [
+      { "id": 1, "libelle": "Aztèques" },
+      { "id": 2, "libelle": "Olmèques" },
+      { "id": 3, "libelle": "Toltèques" }
+    ],
+    "type":2
+  },
+  {
+    "id": "Q085",
+    "mdp": "bonus",
+    "titre": "Quel est le site mexicain le plus connu pour ses cenotes et grottes naturelles ?",
+    "description": "Un symbole du Yucatán.",
+    "image": "cenote.png",
+    "anecdote": "On peut y nager dans des eaux cristallines entourées de stalactites.",
+    "histoire": "Le Yucatán possède des milliers de cenotes, essentiels à la survie des Mayas et aujourd’hui populaires pour la baignade et l’exploration.",
+    "reponse": 3,
+    "reponses": [
+      { "id": 1, "libelle": "Teotihuacán" },
+      { "id": 2, "libelle": "Monte Albán" },
+      { "id": 3, "libelle": "Région du Yucatán" }
+    ],
+    "type":2
+  }
+]
