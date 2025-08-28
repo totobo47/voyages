@@ -172,7 +172,7 @@ function PasserQuestionSuivante() {
 }
 
 function recupereData() {
-  fetch("/data.json")
+  fetch("./data.json")
     .then((res) => res.json())
     .then((data) => {
       questions.value = data;
@@ -224,7 +224,11 @@ onMounted(async () => {
     return;
   }
 
-  if (!isChromeBrowser()) {
+  // Vérifie si c'est un mobile
+  const isMobile = /android|iphone|ipad|ipod/.test(ua)
+
+
+  if (!(isChromeBrowser() && isMobile)) {
     isAllowed.value = false;
     errorMsg.value = "🚫 Ce quiz fonctionne uniquement sur Google Chrome.";
     return;
