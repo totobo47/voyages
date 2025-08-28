@@ -172,7 +172,7 @@ function PasserQuestionSuivante() {
 }
 
 function recupereData() {
-  fetch("./data.json")
+  fetch("/data.json")
     .then((res) => res.json())
     .then((data) => {
       questions.value = data;
