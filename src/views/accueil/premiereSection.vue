@@ -224,10 +224,7 @@ onMounted(async () => {
     return;
   }
 
-// Vérifie si c'est un mobile
-const isMobile = /android|iphone|ipad|ipod/.test(ua)
-
-  if (!(isChromeBrowser() && isMobile)) {
+  if (!isChromeBrowser()) {
     isAllowed.value = false;
     errorMsg.value = "🚫 Ce quiz fonctionne uniquement sur Google Chrome.";
     return;
