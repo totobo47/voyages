@@ -40,6 +40,11 @@
 
 <template>
   <div class="quiz-container h-100" style="overflow: hidden">
+    <div v-if="estAdmin">
+      <InputText v-model="resultatstring" placeholder="rés" />
+      <button @click="calculResultat()">Calculer</button>
+      {{ resultatAdminDecode }}
+    </div>
     <div v-if="!isAllowed" class="blocked">
       <h2>{{ errorMsg }}</h2>
       <a v-if="errorMsg.includes('Chrome')" href="https://www.google.com/chrome/" target="_blank"> Télécharger Google Chrome </a>
@@ -59,11 +64,11 @@
             <p class="question-text">{{ questionAAfficher.description }}</p>
 
             <div class="answers">
-              <div v-if="questionAAfficher.type == 1">
+              <!-- <div v-if="questionAAfficher.type == 1">
                 <div class="card" @click="choisirReponse(1)">Vrai</div>
                 <div class="card" @click="choisirReponse(0)">Faux</div>
               </div>
-              <div v-if="questionAAfficher.type == 2">
+              <div v-if="questionAAfficher.type == 2"> -->
                 <button
                   v-for="(answer, i) in questionAAfficher.reponses"
                   :key="i"
@@ -78,7 +83,7 @@
                 >
                   {{ answer.libelle }}
                 </button>
-              </div>
+              <!-- </div> -->
             </div>
 
             <div v-if="questionAAfficher.estRepondu" class="feedback-section">
@@ -97,7 +102,11 @@
       <div v-else>
         Quiz terminé.
         <p>
-          Veuillez recopier cette string et l'envoyer à Thomas : <strong>{{ resultat }}</strong>
+          Veuillez recopier cette string et l'envoyer à Thomas :
+
+        </p>
+        <p>
+          <button @click="copyText()">Copier</button>
         </p>
       </div>
     </div>
@@ -116,13 +125,15 @@ var questionsAAfficher = ref([]);
 var questionAAfficher = ref({});
 var reponseChoisi = ref({});
 var bonneReponse = ref({});
+var estAdmin = ref(false);
 
-var resultat = ref("");
+var resultat = ref("?./§");
+var resultatAdminDecode = ref(null);
 const resultatDecode = computed(() => {
   try {
     return decodeURIComponent(escape(atob(resultat.value)));
   } catch (e) {
-    return "Erreur décodage";
+    return "";
   }
 });
 
@@ -143,6 +154,16 @@ function verifierQuestions() {
   estMdpRentre.value = true;
 }
 
+var resultatstring = ref(null);
+function calculResultat() {
+  resultatAdminDecode.value = null;
+
+  if (resultatstring.value == null) return;
+
+  var tmpdecode = decodeURIComponent(escape(atob(resultatstring.value)));
+  resultatAdminDecode.value = tmpdecode.split(";").filter(x => x != '').reduce((a, b) => a + parseInt(b.slice(0,1), 10), 0);
+}
+
 function choisirReponse(reponseId) {
   if (reponseChoisi.value != null) return;
 
@@ -150,12 +171,13 @@ function choisirReponse(reponseId) {
 
   reponseChoisi.value = questionAAfficher.value.reponses.find((r) => r.id === reponseId);
 
-  var tmpRes = btoa(unescape(encodeURIComponent(resultatDecode.value + questionAAfficher.value.type + questionAAfficher.value.id + ":" + reponseId + ";")));
+  var tmpRes = btoa(unescape(encodeURIComponent(resultatDecode.value + (reponseId == bonneReponse.value.id ? "1" : "0") + "?./§;")));
   resultat.value = tmpRes;
   questionAAfficher.value.estRepondu = true;
 }
 
 function PasserQuestionSuivante() {
+  bonneReponse.value = {};
   if (questionsAAfficher.value.length == 0) estQuizFini.value = true;
   else {
     reponseChoisi.value = null;
@@ -179,6 +201,12 @@ function recupereData() {
     });
 }
 
+function copyText() {       
+  console.log(resultat.value)             // Sélectionner le texte
+  navigator.clipboard.writeText(resultat.value) // Copier dans le presse-papiers
+    .then(() => alert("Texte copié !"))
+    .catch(err => console.error("Erreur de copie :", err));
+}
 
 const isAllowed = ref(true);
 const errorMsg = ref("");
@@ -186,7 +214,7 @@ const errorMsg = ref("");
 // Détection Chrome uniquement
 function isChromeBrowser() {
   const ua = navigator.userAgent.toLowerCase();
-  console.log(ua)
+  console.log(ua);
   return ua.includes("chrome") && !ua.includes("edg") && !ua.includes("opr");
 }
 
@@ -202,7 +230,7 @@ async function isPrivateMode() {
   // Test quota
   if (navigator.storage && navigator.storage.estimate) {
     const { quota } = await navigator.storage.estimate();
-    console.log("quota", quota)
+    console.log("quota", quota);
     if (quota < 1000000000) {
       // Souvent très bas en mode privé
       return true;
@@ -217,18 +245,27 @@ function hasBypass() {
   return params.get("bypass") === "1";
 }
 
+// Vérifie si l’URL contient bypass=1
+function hasAdmin() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get("admin") === "10";
+}
 
 onMounted(async () => {
   if (hasBypass()) {
     isAllowed.value = true;
     return;
   }
+  if (hasAdmin()) {
+    estAdmin.value = true;
+  }
 
   // Vérifie si c'est un mobile
-  const isMobile = /android|iphone|ipad|ipod/.test(ua)
+  const ua = navigator.userAgent.toLowerCase();
+  const isMobile = /android|iphone|ipad|ipod/.test(ua);
+  console.log("chrome:", isChromeBrowser(), ";mobile:", isMobile);
 
-
-  if (!(isChromeBrowser() && isMobile)) {
+  if (!isChromeBrowser() && !isMobile) {
     isAllowed.value = false;
     errorMsg.value = "🚫 Ce quiz fonctionne uniquement sur Google Chrome.";
     return;
